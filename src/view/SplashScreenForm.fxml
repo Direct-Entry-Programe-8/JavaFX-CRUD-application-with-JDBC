@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #5894e8;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SplashScreenFormController">
+   <children>
+      <ProgressBar fx:id="pgb" layoutX="64.0" layoutY="288.0" prefHeight="20.0" prefWidth="454.0" progress="0.0" />
+      <Label fx:id="lblStatus" layoutX="255.0" layoutY="325.0" text="Initializing...">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="57.0" layoutY="106.0" text="Employee Management System">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
